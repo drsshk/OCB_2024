@@ -15,18 +15,13 @@
             body {
                 font-family: 'Sometype Mono', monospace;
                 font-size: 20px;
-
                 text-align: center;
-;
                 background-image: url('https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
             }
     
     
-
-
-
             .box {
-                border: 10px solid red;
+                border-color: 10px solid red;
                 min-height: 50px;
                 padding : 40px;
             }
@@ -60,7 +55,16 @@
             <div class="box" style="border-color: rgb(230, 87, 123);"></div>
             <div class="box" style="border-color: rgb(230, 87, 123);"></div>
         </div>
-        <div class="box"></div>
+        <div class="box" style="display: flex; flex-direction: column;flex-wrap: wrap;gap: 16px;justify-content: space-evenly; border-color: rgb(12, 189, 80);">
+            <div class="box" style="display: flex; flex-direction: row;gap: 20px ;justify-content: space-between; border-color: rgb(187, 230, 87);">
+                <div class="box" style="border-color: rgb(83, 26, 240);"></div>
+                <div class="box" style="border-color: rgb(83, 26, 240);"></div>
+                <div class="box" style="border-color: rgb(83, 26, 240);"></div>
+            </div>
+            <div class="box" style="border-color: rgb(187, 230, 87);"></div>
+            <div class="box" style="border-color: rgb(187, 230, 87);"></div>
+
+        </div>
     </div>
 
 </body>
