@@ -1,0 +1,67 @@
+*{     /*untuk reset margin*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+}
+
+.mainhead {
+    width: 1000px;
+    height: 96px;
+    margin: 24px auto;
+    background-color:#2A2C2E; 
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(249, 248, 248, .6);
+    align-self: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    font-size: 40px; 
+    background-color: yellow;
+}
+
+.card  {
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.book   {
+    width: 80%; 
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+
+}
+
+.author {
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 0%;
+    color: rgba(15, 15, 15, 0.6);             
+}
+
+.title {
+    font-size: 14px;
+    margin-left: 10%;
+    margin-top: -4%;
+    line-height: -2px;
+    
+}
+
+.review {
+    font-size: 10px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    
+    
+}
