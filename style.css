@@ -123,6 +123,7 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+    padding: 0px 24px 0px 24px;
 }
 
 .foot-left  {
@@ -155,4 +156,5 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+    
 }
