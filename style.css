@@ -21,6 +21,7 @@ body {
     color: rgb(249, 248, 248, .6);
     align-self: center;
     border-radius: 20px;
+    flex-wrap: wrap;
 }
 
 .top-right {
@@ -60,6 +61,7 @@ body {
     background-color:#2A2C2E; 
     align-items: center;
     width: 1729px;
+    flex-wrap: wrap;
    
 }
 .card  {
@@ -179,6 +181,7 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
