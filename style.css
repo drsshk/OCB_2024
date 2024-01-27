@@ -20,15 +20,38 @@ body {
     align-items: center;
     color: rgb(249, 248, 248, .6);
     align-self: center;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.top-right {
+    display: flex; 
+    justify-content: center; 
+    flex: 0.5;
+    gap: 40px;
+    margin: 10px  ;
+    align-items: center;
+
+}
+
+.login {
+    align-items: end;  
+    width: 106px;
+    height: 56px; 
+    border-radius: 16px; 
+    background-color: #F4CE47;
+    padding: 16px 28px 16px 28px;
+    gap: 12px;
 }
 
 .banner {
+    width: 1728px;
+    height: 80px;
     display: flex;
     justify-content: center; 
+    align-items: center;
     gap: 30px;
     font-size: 40px; 
-    background-color: yellow;
+    background-color: #F4CE47;
 }
 
 .content    {
@@ -157,4 +180,8 @@ body {
     display: flex;
     flex-direction: row;
     
+}
+
+li:hover {
+    color: #F4D867;
 }
