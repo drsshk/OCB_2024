@@ -12,7 +12,7 @@ body {
 }
 
 .mainhead {
-    width: 1200px;
+    max-width: 1200px;
     height: 96px;
     margin: 24px auto;
     background-color:#2A2C2E; 
@@ -31,26 +31,29 @@ body {
     background-color: yellow;
 }
 
+.content    {
+    display: flex;
+    flex-direction: column; 
+    background-color:#2A2C2E; 
+    align-items: center;
+    width: 1729px;
+   
+}
 .card  {
     width: 294px;
     height: 577px;
     background-color: white;
     border-radius: 20px;
     padding: 24px;
+    gap: 10px;
 }
 
-.content    {
-    display: flex;
-    flex-direction: column; 
-    background-color:#2A2C2E; 
-    gap: 8px;
-    align-items: center;
-    
-}
+
     
 .book-list {
     display: flex; 
     flex-direction: row; 
+    flex-wrap: wrap;
     gap: 10px;
     margin: 30px 5px 5px;
 }
@@ -81,6 +84,7 @@ body {
     font-size: 10px;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     border-radius: 10px;
     list-style-type: none;
@@ -104,9 +108,35 @@ body {
 
 .price {
     padding: 10px;
+    line-height: 100px;
 }
 .discounted {
     text-decoration: line-through;
     color: gray;
-    line-height: 100px;
+    
+}
+
+.bottom {
+    width: 1248px;
+    height: 88px;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.resource   {
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.logo   {
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
 }
