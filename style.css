@@ -24,6 +24,7 @@ body {
     align-self: center;
     border-radius: 20px;
     flex-wrap: wrap;
+    flex-basis: auto;
 }
 
 .top-right {
